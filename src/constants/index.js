@@ -51,7 +51,7 @@ export const PATENT = [
     role: "A Machine learning based system for Incorrect Posture Detection",
     company: "Australian Innovation Patents (IP Australia 2021102966)",
     description: `Developed an innovative machine learning system in Python and integrated it with a web application to detect and prevent Upper Cross Postural Syndrome by analyzing and classifying user posture based on key body points, reducing the risk of spinal problems.`,
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"],
+    technologies: ["Python","HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"],
     link: "https://pericles.ipaustralia.gov.au/ols/auspat/applicationDetails.do?applicationNo=2021102966"
   },
 ];
