@@ -3,9 +3,9 @@ import { PATENT } from '../constants';
 import {motion} from 'framer-motion';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
-const Experience = () => {
+const Patent = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4'>
+    <div className='border-neutral-900 pb-4'>
         <motion.h2 
         whileInView={{opacity: 1, y: 0}}
         initial={{opacity: 0, y: -100}}
@@ -32,19 +32,21 @@ const Experience = () => {
                                 {patent.company}
                             </span>
                             <a href={patent.link} target='_blank' rel='noopener noreferrer' className='ml-2 text-blue-500 hover:underline flex items-center'>
-                            <FaExternalLinkAlt className='ml-1 text-xl' /> {/* Display an external link icon */}
+                            <FaExternalLinkAlt className='ml-1 text-xl' />
                             </a>
                         </h6>
                         <p className='mb-4 text-neutral-400'>{patent.description}</p>
-                        {patent.technologies.map((tech, index) => (
-                            <span key={index} className='mr-1 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm sm:text-base md:text-lg font-bold text-purple-800'>{tech}</span>
-                        ))}
+                        <div className='flex flex-wrap justify-center items-center'>
+                            {patent.technologies.map((tech, index) => (
+                                <span key={index} className='mr-1 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm sm:text-base md:text-lg font-bold text-purple-800'>{tech}</span>
+                            ))}
+                        </div>
                     </motion.div>
                 </div>
             ))}
         </div>
     </div>
-  )
+  );
 }
 
-export default Experience
+export default Patent;

@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4'>
+    <div className='border-neutral-900 pb-4'>
         <motion.h2 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -35,11 +35,13 @@ const Projects = () => {
                         </a>
                     </h6>
                     <p className='mb-4 text-lg text-neutral-400'>{project.description}</p>
-                    {project.technologies.map((tech, index) => (
-                        <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm sm:text-base md:text-lg font-bold text-purple-900'>
-                            {tech}
-                        </span>
-                    ))}
+                    <div className='flex flex-wrap justify-center items-center'>
+                        {project.technologies.map((tech, index) => (
+                            <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm sm:text-base md:text-lg font-bold text-purple-900'>
+                                {tech}
+                            </span>
+                        ))}
+                    </div>
                 </motion.div>
             </div>
         ))}
