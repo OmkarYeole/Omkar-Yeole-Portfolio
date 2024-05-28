@@ -1,4 +1,3 @@
-import aboutImg from '../assets/about.jpg';
 import aboutImg1 from '../assets/Image-3.jpeg';
 import { ABOUT_TEXT } from '../constants';
 import {motion} from "framer-motion";
