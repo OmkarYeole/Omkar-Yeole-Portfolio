@@ -5,19 +5,20 @@ Welcome to my personal portfolio repository! This site is designed to showcase m
 ## Overview
 This portfolio includes:
 
-Professional Experience: Detailed descriptions of my roles and responsibilities in various organizations.
+**Professional Experience:** Detailed descriptions of my roles and responsibilities in various organizations.
 
-Projects: Highlights of key projects, including descriptions, technologies used, and links to live demos or source code.
+**Projects:** Highlights of key projects, including descriptions, technologies used, and links to live demos or source code.
 
-Skills: A comprehensive list of technical skills, frameworks, and tools I am proficient in.
-Certifications and Patents: Information about any certifications, courses, and patents I hold.
+**Skills:** A comprehensive list of technical skills, frameworks, and tools I am proficient in.
+
+**Certifications and Patents:** Information about any certifications, courses, and patents I hold.
 
 ## Features
 
-Responsive Design: Optimized for all devices to ensure a seamless user experience.
+**Responsive Design:** Optimized for all devices to ensure a seamless user experience.
 
-Interactive User Interface: Built using modern web technologies to create an engaging user interface.
+**Interactive User Interface:** Built using modern web technologies to create an engaging user interface.
 
 ## Technologies Used
 
-Frontend: HTML5, CSS3, JavaScript, React, Vercel
+HTML5, CSS3, JavaScript, React, Vercel
