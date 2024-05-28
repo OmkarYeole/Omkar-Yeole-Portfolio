@@ -2,18 +2,19 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import CoffeeLogo from "../assets/projects/Coffee-logo.jpg";
+import GlassdoorJobReviews from "../assets/projects/Glassdoor-Job-Reviews.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a versatile software developer with a solid background in both front-end and back-end technologies. I have successfully developed cross-platform applications and improved project efficiency in previous roles at Accenture and various tech internships. With a strong focus on user experience and proficiency in modern frameworks like React, Node.js, and Flutter, I consistently deliver robust and innovative software solutions.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a passionate Software Developer focused on developing innovative solutions across various platforms. Proficient in languages such as JavaScript, Python, and Java, and frameworks like React and Node.js, I have a proven track record of enhancing project efficiency and optimizing user experiences. My work includes a patent for a machine learning-based posture detection system, highlighting my commitment to cutting-edge technology and user-centric design.`;
 
 export const EXPERIENCES = [
   {
     year: "May 2023 - Dec 2023",
     role: "Software Developer Intern",
     company: "ASANTe",
-    description: `Developed cross-platform application using Flutter and Dart to improve overall user experience. Engineered the setup of authentication services for the app using Amazon Web Services (AWS) enhancing user interaction. Managed REST APIs to optimize client-server communication enhancing performance among application components. Effectively managed the project tasks and workflows using JIRA, ensuring efficient project progress monitoring.
-    `,
+    description: `Developed cross-platform application using Flutter and Dart to improve overall user experience. Engineered the setup of authentication services for the app using Amazon Web Services (AWS) enhancing user interaction. Managed REST APIs to optimize client-server communication enhancing performance among application components. Effectively managed the project tasks and workflows using JIRA, ensuring efficient project progress monitoring.`,
     technologies: ["Flutter", "Dart", "REST APIs", "gRPC", "Amazon Web Services (AWS)"],
   },
   {
@@ -44,14 +45,14 @@ export const PROJECTS = [
     title: "Task Management Software",
     image: project1,
     description:
-      "An innovative Task Board for efficient management of user tasks",
+      `An innovative Task Board for efficient management of user tasks`,
     technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "PostgreSQL", "REST"],
   },
   {
     title: "Crime Analysis App",
     image: project2,
     description:
-      "A dynamic web application to explore crime data.",
+      `A dynamic web application to explore crime data.`,
     technologies: ["HTML", "CSS", "JavaScript", "Python", "Flask"],
   },
   {
@@ -64,7 +65,7 @@ export const PROJECTS = [
   },
   {
     title: "Cafe Management System In Java",
-    image: project4,
+    image: CoffeeLogo,
     description:
       "A cafe management system that allows users to order food and drinks, track orders, and manage inventory,",
     technologies: ["Java", "JFrame", "UML", "Design Patterns", "Object Oriented Programming"],
@@ -78,10 +79,10 @@ export const PROJECTS = [
   },
   {
     title: "Glassdoor Job Reviews using Data Science Techniques",
-    image: project4,
+    image: GlassdoorJobReviews,
     description:
       "A data science project that analyzes job reviews on Glassdoor to identify trends and insights",
-    technologies: ["Python", "SARIMAX", "ARIMA", "Support Vector Machine", "XGBoost", "Logistic Regression"],
+    technologies: ["Python", "Linear Regression"],
   },
 ];
 

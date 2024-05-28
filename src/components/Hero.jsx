@@ -1,6 +1,7 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants';
 import profilePic from '../assets/kevinRushProfile.png';
+import mainPic from '../assets/Image-1.jpeg';
 import {motion} from "framer-motion";
 
 const container = (delay) => ({
@@ -48,7 +49,7 @@ const Hero = () => {
                     initial={{ x: 100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 1.2 }}
-                    src={profilePic} alt='Kevin Rush'/>
+                    src={mainPic} alt='Omkar Yeole'/>
                 </div>
             </div>
         </div>
