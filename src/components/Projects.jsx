@@ -35,7 +35,7 @@ const Projects = () => {
                         </a>
                     </h6>
                     <p className='mb-4 text-lg text-neutral-400'>{project.description}</p>
-                    <div className='flex flex-wrap justify-center items-center'>
+                    <div className='flex flex-wrap justify-center items-center space y-8'>
                         {project.technologies.map((tech, index) => (
                             <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm sm:text-base md:text-lg font-bold text-purple-900'>
                                 {tech}
