@@ -8,7 +8,7 @@ const contacts = () => {
         whileInView={{ opacity: 1, y: 0}}
         initial={{ opacity: 0, y: -100}}
         transition={{ duration: 1 }}
-        className='my-10 text-center text-5xl'>Get in Touch
+        className='my-10 text-center text-5xl'>Let's Connect
         </motion.h2>
         <div className='text-center text-lg tracking-tighter'>
             <motion.p 
