@@ -4,7 +4,7 @@ import {motion} from 'framer-motion';
 
 const Experience = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4'>
+    <div className=' pb-4'>
         <motion.h2 
         whileInView={{opacity: 1, y: 0}}
         initial={{opacity: 0, y: -100}}
@@ -34,7 +34,9 @@ const Experience = () => {
                         <p className='mb-4 text-neutral-400'>{experience.description}</p>
                         <div className='flex flex-wrap justify-center items-center space y-8'>
                             {experience.technologies.map((tech, index) => (
-                                <span key={index} className='mr-1 rounded bg-neutral-900 px-2 py-1 text-sm sm:text-base md:text-lg font-bold text-purple-800'>{tech}</span>
+                                <span key={index} className='m-1 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center'>
+                                    {tech}
+                                </span>
                             ))}
                         </div>
                     </motion.div>

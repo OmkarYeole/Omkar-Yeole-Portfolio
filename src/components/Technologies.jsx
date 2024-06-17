@@ -4,17 +4,23 @@ import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaPython, FaJava, Fa
 import { SiExpress, SiFlutter, SiDart, SiPostgresql, SiMysql, SiCplusplus, SiCsharp, SiGooglecloud } from 'react-icons/si';
 
 const iconVariants = (duration) => ({
-    initial: { y: -10 },
-    animate: { 
-        y: [10, -10], 
-        transition: { 
-            duration: duration,
-            ease: "linear",
-            repeat: Infinity,
-            repeatType: "reverse",
-        },
-    },
+    // initial: { y: -10 },
+    // animate: { 
+    //     y: [10, -10], 
+    //     transition: { 
+    //         duration: duration,
+    //         ease: "linear",
+    //         repeat: Infinity,
+    //         repeatType: "reverse",
+    //     },
+    // },
 });
+
+const inlineStyle = (pctFill) => {
+    return(
+      {background: 'linear-gradient(90deg, #134758 '+pctFill+'%, #d3d3d3 '+pctFill+'%)'}
+    )
+  }
 
 const Technologies = () => {
   return (
@@ -55,7 +61,7 @@ const Technologies = () => {
                 animate="animate"
                 className="text-center">
                 <div className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <FaJsSquare className="text-5xl text-yellow-500"/>
+                    <FaJsSquare className="text-5xl ml-2 text-yellow-500"/>
                 </div>
                 <h1 className='my-2 text-center text-xl'>JavaScript</h1>
             </motion.div>
@@ -115,7 +121,7 @@ const Technologies = () => {
                 animate="animate"
                 className="text-center">
                 <div className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <SiPostgresql className="text-5xl text-cyan-500"/>
+                    <SiPostgresql className="text-5xl mx-3 items-center text-cyan-500"/>
                 </div>
                 <h1 className='my-2 text-center text-xl'>PostgreSQL</h1>
             </motion.div>
@@ -135,9 +141,9 @@ const Technologies = () => {
                 animate="animate"
             className="text-center">
                 <div className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <FaPython className="text-5xl text-yellow-400"/>
+                    <FaPython className="text-5xl  bg-gradient-to-br from-blue-700 to-yellow-400 fill-current bg-clip-content" />
                 </div>
-                <h1 className='my-2 text-center text-xl'>Python</h1>
+                <h1  className='my-2 text-center text-xl'>Python</h1>
             </motion.div>
             <motion.div 
                 variants={iconVariants(3)} 

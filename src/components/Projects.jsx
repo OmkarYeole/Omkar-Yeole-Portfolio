@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
   return (
-    <div className='border-neutral-900 pb-4'>
+    <div className=' pb-4'>
         <motion.h2 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -29,15 +29,22 @@ const Projects = () => {
                 initial={{ opacity: 0, x: 100 }}
                 transition={{ duration: 1 }}
                 className='w-full max-w-xl lg:w-3/4'>
-                    <h6 className='mb-2 text-lg font-semibold flex items-center'>{project.title}
+                    <h6 className='mb-2 text-lg font-semibold flex items-center'>
+                    <div className="flex items-center">
+            <span className="flex-grow">{project.title}</span>
+            <a href={project.githubLink} target='_blank' rel='noopener noreferrer' className='ml-2 text-blue-500 hover:underline'>
+                <FaGithub className='text-xl' />
+            </a>
+        </div>
+                        {/* <>{project.title} </>
                     <a href={project.githubLink} target='_blank' rel='noopener noreferrer' className='ml-2 text-blue-500 hover:underline'>
                             <FaGithub className='text-xl' />
-                        </a>
+                    </a> */}
                     </h6>
                     <p className='mb-4 text-lg text-neutral-400'>{project.description}</p>
                     <div className='flex flex-wrap justify-center items-center space y-8'>
                         {project.technologies.map((tech, index) => (
-                            <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm sm:text-base md:text-lg font-bold text-purple-900'>
+                            <span key={index} className='m-1 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center'>
                                 {tech}
                             </span>
                         ))}
