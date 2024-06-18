@@ -27,14 +27,14 @@ export const EXPERIENCES = [
     role: "Software Developer",
     company: "Accenture",
     description: `Utilized Selenium in Java to test FTTP products, ensuring consistent delivery of exceptional telecom services to customers. Proficiently implemented Agile and Scrum methodologies to drive robust solutions, surpassing expectations and producing 10% reduction in production issues.`,
-    technologies: ["Java", "Selenium", "Agile"],
+    technologies: ["Java", "Kanban", "Agile"],
   },
   {
     year: "Jan 2021 - May 2021",
     role: "Software Developer Intern",
     company: "Sattvarise Technologies",
     description: `Achieved a 25% increase in overall project efficiency by redesigning and debugging a Software Development Kit (SDK) using C++ to scope its potential for industry use. Conducted unit and target testing throughout the development process to ensure the robustness and reliability of the SDK.`,
-    technologies: ["C++", "C#", "Unity", "Amazon Web Services (AWS)"],
+    technologies: ["C++", "C#", "Unity"],
   },
   {
     year: "May 2018 - Jul 2018",
@@ -86,7 +86,7 @@ export const PROJECTS = [
     image: CarDearlership,
     description:
       "The Friendly Neighborhood Car Dealership (FNCD) Simulation is a Java-based project that simulates the operations of a car dealership. Users can engage in activities such as buying, selling, repairing, cleaning, and racing cars. The simulation leverages Object-Oriented Programming (OOP) principles and incorporates several common software design patterns.",
-    technologies: ["Java", "UML", "Design Patterns", "Unit Testing"],
+    technologies: ["Java", "UML", "Design Patterns"],
     githubLink: "https://github.com/OmkarYeole/Friendly-Neighbourhood-Car-Dealership-using-OOP",
   },
   {
@@ -110,7 +110,7 @@ export const PROJECTS = [
     image: GlassdoorJobReviews,
     description:
       "This project focuses on analyzing Glassdoor job reviews to extract insights about companies' work environments, cultural values, and overall employee satisfaction. The analysis includes data cleaning, preprocessing, exploratory data analysis (EDA), sentiment analysis, and building a predictive model using linear regression.",
-    technologies: ["Python", "Linear Regression", "Sentiment Analysis"],
+    technologies: ["Python", "Linear Regression", "Pandas", "NumPy", "Scikit-learn", "NLTK", "Matplotlib", "Seaborn"],
     githubLink: "https://github.com/OmkarYeole/Glassdoor-Job-Reviews",
   },
 ];
