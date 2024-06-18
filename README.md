@@ -21,6 +21,12 @@ This portfolio includes:
 
 **Responsive Design:** Optimized for all devices to ensure a seamless user experience.
 
+## Contact
+
+For any questions or further information, you can reach me at omkaryeole@gmail.com.
+
+Thank you for visiting the Portfolio project!
+
 **Interactive User Interface:** Built using modern web technologies to create an engaging user interface.
 
 ## Technologies Used
