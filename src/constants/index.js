@@ -82,7 +82,7 @@ export const PROJECTS = [
     githubLink: "https://github.com/OmkarYeole/Omkar-Yeole-Portfolio",
   },
   {
-    title: "Friendly Neighborhood Car Dealership (FNCD) Simulation in Java",
+    title: "Car Dealership Simulation in Java",
     image: CarDearlership,
     description:
       "The Friendly Neighborhood Car Dealership (FNCD) Simulation is a Java-based project that simulates the operations of a car dealership. Users can engage in activities such as buying, selling, repairing, cleaning, and racing cars. The simulation leverages Object-Oriented Programming (OOP) principles and incorporates several common software design patterns.",
