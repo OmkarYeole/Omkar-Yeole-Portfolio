@@ -41,7 +41,7 @@ export const EXPERIENCES = [
     role: "Software Developer Intern",
     company: "Crest Test Systems",
     description: `Leveraged Python to prototype automation systems of office processes, resulting in an 8% increase in operational efficiency by collaborating with a cross-functional team.`,
-    technologies: ["Python", "REST APIs"],
+    technologies: ["Python"],
   },
 ];
 
@@ -62,7 +62,7 @@ export const PROJECTS = [
     image: project1,
     description:
       `Task Management Software helps users efficiently manage their tasks using our web application. The software is designed to provide a user-friendly interface with essential features for task organization and management.`,
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "PostgreSQL", "REST"],
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "PostgreSQL", "REST APIs"],
     githubLink: "https://github.com/OmkarYeole/Task-Management-Software",
   },
   {
