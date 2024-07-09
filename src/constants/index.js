@@ -1,11 +1,11 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import CoffeeLogo from "../assets/projects/Coffee-logo.jpg";
 import CarDearlership from "../assets/projects/Car_Dealership.jpg";
 import PorfolioPhoto from "../assets/projects/O.png";
 import GlassdoorJobReviews from "../assets/projects/Glassdoor-Job-Reviews.png";
+import BankApp from '../assets/projects/unnamed.png';
 
 
 export const HERO_CONTENT = `I am a versatile software developer with a solid background in both front-end and back-end technologies. I have successfully developed cross-platform applications and improved project efficiency in previous roles at Accenture and various tech internships. With a strong focus on user experience and proficiency in modern frameworks like React, Node.js, and Flutter, I consistently deliver robust and innovative software solutions.`;
@@ -57,6 +57,14 @@ export const PATENT = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Modern Bank App using React",
+    image: BankApp,
+    description:
+      `This app showcases a sleek and contemporary user interface for a banking application, designed using React, Tailwind CSS, and JavaScript. The goal of this app is to provide a visually appealing and intuitive experience for users, demonstrating how modern design principles can enhance the usability and aesthetics of a banking application.`,
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
+    githubLink: "https://github.com/OmkarYeole/Modern-Bank-App/tree/main",
+  },
   {
     title: "Task Management Software",
     image: project1,
