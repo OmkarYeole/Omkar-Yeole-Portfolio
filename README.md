@@ -1,3 +1,7 @@
+# This is an older version of the portfolio, you can view the newer portfolio below:
+
+https://omkar-portfolio-nu.vercel.app/
+
 # Omkar Yeole's Portfolio
 
 Welcome to my personal portfolio repository! This site is designed to showcase my professional experiences, projects, skills, and the tools and technologies I specialize in. 
